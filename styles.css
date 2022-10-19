@@ -1,7 +1,20 @@
 body {
-    background:#808000;
+    background:#686A6C;
     font-family:monospace;
     font-size: xx-large
+}
+
+.assignment {
+    display:flex;
+    padding: 15px;
+    margin:15px;    
+    background-color: #686A6C;
+}
+
+.assignment img {
+    width:500px;
+    height: 500px;
+    padding:15px;
 }
 
 h1 {
