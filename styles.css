@@ -4,8 +4,13 @@ body {
     font-size: large
 }
 
-.assignment {
+.assignments {
     display:flex;
+    flex-wrap:wrap;
+}
+
+.assignment {
+    width: 22%;
     padding: 15px;
     border: 10px ridge #2F4F4F;
     margin:15px;    
@@ -17,6 +22,8 @@ body {
     height: 250px;
     margin: 20px;
     border: 6px outset #2F4F4F;
+    display:block;
+    margin:auto;
 }
 
 h1 {
